@@ -7,7 +7,7 @@
 ## Ethical Hacking Tool List
 ## Descrição do Projeto
 
-Este projeto é um site interativo que lista ferramentas de Ethical Hacking, desenvolvido durante o curso de imersão Alura Gemini. O objetivo é fornecer um recurso educacional para profissionais de segurança da informação e entusiastas, oferecendo acesso rápido a informações sobre diversas ferramentas de hacking ético.
+Este projeto é um site interativo que lista ferramentas de Ethical Hacking, desenvolvido durante o curso de imersão Alura Gemini. O objetivo é fornecer uma lista de ferramentas que é utilizada no dia a dia de um profissional de segurança da informação.
 
 ## Funcionalidades
 
