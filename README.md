@@ -32,7 +32,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 Este projeto está sob a licença [inserir tipo de licença aqui].
 
 ## Contato
-
-[Seu nome] - [seu email]
-
-Link do projeto: [URL do seu repositório GitHub]
+Miguel Batista Pinotti
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=E94D5F)](mailto:miguelpinotty@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/miguel-batista-pinotti-839657266/)
