@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="caminho/para/seu/gif.gif" alt="Demonstração do projeto" width="600">
+  <img src="gif.gif" alt="Demonstração do projeto" width="600">
 </p>
 
 # Imersão Alura - Gemini
