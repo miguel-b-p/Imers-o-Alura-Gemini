@@ -22,6 +22,9 @@ Este projeto é um site interativo que lista ferramentas de Ethical Hacking, des
 - CSS
 - JavaScript
 
+## Demonstração 🎥
+[Clique aqui para acessar uma demonstração do projeto](https://miguelbatistapinotti.github.io/Imersao-Alura-Gemini/)
+
 ## Contato 🔗
 Miguel Batista Pinotti
 
