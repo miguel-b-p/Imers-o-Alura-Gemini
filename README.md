@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="caminho/para/seu/gif.gif" alt="Demonstração do projeto" width="600">
+</p>
+
 # Imersão Alura - Gemini
 ## Ethical Hacking Tool List
 
@@ -20,5 +25,5 @@ Este projeto é um site interativo que lista ferramentas de Ethical Hacking, des
 
 ## Contato
 Miguel Batista Pinotti
-[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=E94D5F)](miguelpinotty@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/miguel-batista-pinotti-839657266/)
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-batista-pinotti-839657266/)
