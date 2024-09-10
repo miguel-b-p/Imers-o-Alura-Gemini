@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para responsividade em dispositivos móveis -->
+  <link rel="stylesheet" href="css/styles.css"> <!-- Link para o arquivo de estilos CSS -->
+  <title>Ethical Hacking</title> <!-- Título da página que aparece na aba do navegador -->
+</head>
+<body>
+  <header> <!-- Início do cabeçalho da página -->
+    <img src="img/logo/logo.jpeg" alt="Logo"> <!-- Imagem do logo da aplicação -->
+    <h1>Ethical Hacking | Tool List</h1> <!-- Título principal da página -->
+  </header>
+  <main> <!-- Início da seção principal da página -->
+    <section> <!-- Início da seção de pesquisa -->
+      <input id="campo-pesquisa" type="text" placeholder="Digite o nome da ferramenta ou categoria"> <!-- Campo de entrada para pesquisa -->
+      <button onclick="pesquisar()" id="pesquisar">Pesquisar</button> <!-- Botão que chama a função pesquisar quando clicado -->
+    </section>
+    <section> <!-- Início da seção de categorias -->
+      <div> <!-- Div para agrupar os botões de categoria -->
+        <button onclick="pesquisarCategoria('sql')">SQL Injection</button> <!-- Botão para pesquisar por SQL Injection -->
+        <button onclick="pesquisarCategoria('xss')">XSS</button> <!-- Botão para pesquisar por XSS -->
+        <button onclick="pesquisarCategoria('crawler')">Crawler</button> <!-- Botão para pesquisar por Crawler -->
+      </div>
+    </section>
+    <section class="resultados-pesquisa"> <!-- Seção onde os resultados da pesquisa serão exibidos -->
+      <!-- Um resultado de pesquisa -->
+      <!-- <div class="item-resultado">
+        <div>
+        <a href="https://nuclei.projectdiscovery.io/" target="_blank"><img src="img/nuclei.png" alt="Nuclei"><h2>Nuclei</h2></a>
+          <p class="descricao-meta">Nuclei é uma ferramenta de automação de testes de segurança que permite a realização de varreduras em aplicações web, identificando vulnerabilidades e falhas de segurança de forma rápida e eficiente.</p>
+        </div>
+      </div> -->
+    </section>
+  </main>
+  <footer> <!-- Início do rodapé da página -->
+    <p>Direitos reservados a Ethical Hacking &copy; 2024</p> <!-- Mensagem de direitos autorais -->
+  </footer>
+  <script src="js/dados.js"></script> <!-- Link para o arquivo de dados JavaScript -->
+  <script src="js/app.js"></script> <!-- Link para o arquivo de aplicação JavaScript -->
+</body>
+</html>
