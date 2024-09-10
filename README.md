@@ -9,6 +9,8 @@
 
 Este projeto é um site interativo que lista ferramentas de Ethical Hacking, desenvolvido durante o curso de imersão Alura Gemini. O objetivo é fornecer uma lista de ferramentas que é utilizada no dia a dia de um profissional de segurança da informação.
 
+OBS: Nem todas as ferramentas estão listadas.
+
 ## Funcionalidades
 
 - **Pesquisa de Ferramentas**: Os usuários podem pesquisar ferramentas por nome ou categoria.
