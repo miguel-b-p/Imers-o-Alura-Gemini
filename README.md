@@ -1,11 +1,10 @@
+# Imersão Alura - Gemini
 
 <p align="center">
   <img src="gif.gif" alt="Demonstração do projeto" width="600">
 </p>
 
-# Imersão Alura - Gemini
 ## Ethical Hacking Tool List
-
 ## Descrição do Projeto
 
 Este projeto é um site interativo que lista ferramentas de Ethical Hacking, desenvolvido durante o curso de imersão Alura Gemini. O objetivo é fornecer um recurso educacional para profissionais de segurança da informação e entusiastas, oferecendo acesso rápido a informações sobre diversas ferramentas de hacking ético.
