@@ -102,6 +102,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
+    height: auto;
     position: fixed; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
@@ -123,7 +124,7 @@ footer img:hover {
 }
 
 #pesquisar {
-    margin-right: 0;
+    margin-right: 0; /* Remove o espaçamento à direita */
 }
 
 /* Estiliza a mensagem de não encontrado */ 
@@ -232,7 +233,7 @@ footer img:hover {
 
 @media (max-width: 988px) {
     .resultados-pesquisa {
-        width: 47rem;
+        width: 47rem; /* Largura da caixa de resultados em telas menores */
     }
 }
 
@@ -264,7 +265,7 @@ footer img:hover {
         height: 40vh; /* Altura da caixa de resultados em telas menores */
     }
     footer {
-        display: none;
+        display: none; /* Esconde o rodapé em telas pequenas */
     }
 }
 
@@ -301,7 +302,7 @@ footer img:hover {
     }
 
     footer {
-        display: none;
+        display: none; /* Esconde o rodapé em telas pequenas */
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
