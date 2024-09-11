@@ -84,7 +84,7 @@ section button {
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformação */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o botão */
-    margin-right: 3rem; /* Espaçamento à direita se houver outro botão */
+    margin-right: 1rem; /* Espaçamento à direita se houver outro botão */
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
@@ -105,6 +105,21 @@ footer {
     position: fixed; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    vertical-align: middle; /* Alinha verticalmente ao centro */
+}
+
+footer img {
+    border-radius: 20%; /* Borda arredondada para a imagem */
+    width: 2rem; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-left: 0.5rem; /* Espaçamento à esquerda da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+    vertical-align: middle; /* Alinha verticalmente ao centro */
+}
+
+footer img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+    
 }
 
 #pesquisar {
@@ -215,10 +230,17 @@ footer {
     }
 }
 
+@media (max-width: 988px) {
+    .resultados-pesquisa {
+        width: 47rem;
+    }
+}
+
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+
     h1 {
-        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        font-size: 1.7rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
 
@@ -236,25 +258,41 @@ footer {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 }
+@media screen and (max-width: 680px) {
+    .resultados-pesquisa {
+        width: 35rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+    footer {
+        display: none;
+    }
+}
 
 /* Responsividade para celulares */
-@media (max-width: 480px) {
+@media (max-width: 488px) {
+
+    #nao-encontrado {
+        font-size: 1.2rem; /* Tamanho da fonte para a mensagem de não encontrado */
+    }
     h1 {
-        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        font-size: 1.3rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
     }
 
     section input {
         width: 17rem; /* Largura total dos inputs em telas pequenas */
+        font-size: 0.8rem; /* Tamanho da fonte dos inputs em telas pequenas */
     }
 
     section button {
         padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
         font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+        margin-right: 0.1rem; /* Espaçamento à direita se houver outro botão */
+        margin-left: 0.1rem; /* Espaçamento à esquerda se houver outro botão */
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        width: 28rem; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
     }
 
@@ -263,6 +301,7 @@ footer {
     }
 
     footer {
+        display: none;
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
