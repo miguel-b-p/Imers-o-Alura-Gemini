@@ -11,6 +11,7 @@ html {
 
 /* Estiliza o corpo da página */
 body {
+    font-size: 0.5rem;
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #141414; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
@@ -39,8 +40,9 @@ header {
 /* Estiliza a imagem do cabeçalho */
 header img {
     align-items: center; /* Alinha a imagem do cabeçalho */
-    margin-top: 30%; /* Espaçamento acima da imagem */
+    margin-top: 15vh; /* Espaçamento acima da imagem */
     width: 30%; /* Largura da imagem do cabeçalho */
+    max-width: 20rem;
     border-radius: 50%; /* Borda arredondada para a imagem */
     border: 5px solid transparent; /* Borda inicial transparente */
     animation: bordaAnimacao 2s infinite; /* Animação em loop para a borda */
@@ -160,7 +162,7 @@ footer img:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 100vh; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Permite rolagem vertical */
     scrollbar-width: none; /* Deixa a barra de rolagem mais fina */
