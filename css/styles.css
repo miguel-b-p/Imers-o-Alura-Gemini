@@ -21,6 +21,10 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+img {
+    image-rendering: pixelated; 
+}
+
 /* Estiliza o cabeçalho da página */
 header {
     display: flex; /* Usa Flexbox para layout no cabeçalho */
@@ -107,7 +111,7 @@ footer {
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     height: auto;
-    position: fixed; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
     vertical-align: middle; /* Alinha verticalmente ao centro */
@@ -157,6 +161,7 @@ footer img:hover {
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     scrollbar-width: none; /* Deixa a barra de rolagem mais fina */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    margin-bottom: 5%; /* Espaçamento abaixo da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
