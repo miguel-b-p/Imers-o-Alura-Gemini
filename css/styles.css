@@ -4,6 +4,10 @@
 /* Importa a fonte Comfortaa do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
@@ -29,7 +33,7 @@ header {
 /* Estiliza a imagem do cabeçalho */
 header img {
     align-items: center; /* Alinha a imagem do cabeçalho */
-    margin-top: 10rem; /* Espaçamento acima da imagem */
+    margin-top: 30%; /* Espaçamento acima da imagem */
     width: 30%; /* Largura da imagem do cabeçalho */
     border-radius: 50%; /* Borda arredondada para a imagem */
     border: 5px solid transparent; /* Borda inicial transparente */
@@ -238,7 +242,7 @@ footer img:hover {
 }
 
 /* Responsividade para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     h1 {
         font-size: 1.7rem; /* Tamanho da fonte em telas menores */
@@ -293,7 +297,7 @@ footer img:hover {
     }
 
     .resultados-pesquisa {
-        width: 28rem; /* Largura da caixa de resultados em telas pequenas */
+        width: 20rem; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
     }
 
@@ -304,5 +308,23 @@ footer img:hover {
     footer {
         display: none; /* Esconde o rodapé em telas pequenas */
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
+
+@media (max-height: 600px) {
+    header img {
+        width: 25%;
+    }
+}
+
+@media (max-height: 800px) {
+    header img {
+        margin-top: 40%;
+    }
+}
+
+@media (max-height: 950px) {
+    header img {
+        margin-top: 45%;
     }
 }
