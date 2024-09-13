@@ -4,8 +4,9 @@
 /* Importa a fonte Comfortaa do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+/* Estiliza o html */
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Define o comportamento de rolagem suave */
 }
 
 /* Estiliza o corpo da página */
@@ -21,8 +22,9 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+/* Estiliza as imagens */
 img {
-    image-rendering: pixelated;
+    image-rendering: pixelated; /* Define o modo de renderização da imagem */
 }
 
 /* Estiliza o cabeçalho da página */
@@ -110,13 +112,14 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    height: auto;
+    height: auto; /* Altura automática */
     position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
     vertical-align: middle; /* Alinha verticalmente ao centro */
 }
 
+/* Estiliza a imagem no rodapé */
 footer img {
     border-radius: 20%; /* Borda arredondada para a imagem */
     width: 2rem; /* Largura da imagem */
@@ -126,11 +129,12 @@ footer img {
     vertical-align: middle; /* Alinha verticalmente ao centro */
 }
 
+/* Estiliza a imagem no rodapé ao passar o mouse */
 footer img:hover {
     transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
-    
 }
 
+/* Estiliza o botão de pesquisar */
 #pesquisar {
     margin-right: 0; /* Remove o espaçamento à direita */
 }
@@ -158,7 +162,7 @@ footer img:hover {
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    overflow-y: auto; /* Permite rolagem vertical */
     scrollbar-width: none; /* Deixa a barra de rolagem mais fina */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     margin-bottom: 5%; /* Espaçamento abaixo da caixa de resultados */
@@ -240,6 +244,7 @@ footer img:hover {
     }
 }
 
+/* Estiliza a caixa de resultados em telas menores */
 @media (max-width: 988px) {
     .resultados-pesquisa {
         width: 47rem; /* Largura da caixa de resultados em telas menores */
@@ -268,6 +273,8 @@ footer img:hover {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 }
+
+/* Responsividade para telas menores */
 @media screen and (max-width: 680px) {
     .resultados-pesquisa {
         width: 35rem; /* Largura da caixa de resultados em telas menores */
@@ -316,20 +323,23 @@ footer img:hover {
     }
 }
 
+/* Estiliza a imagem do cabeçalho em telas com altura máxima de 600px */
 @media (max-height: 600px) {
     header img {
-        width: 25%;
+        width: 25%; /* Largura da imagem do cabeçalho */
     }
 }
 
+/* Estiliza a imagem do cabeçalho em telas com altura máxima de 800px */
 @media (max-height: 800px) {
     header img {
-        margin-top: 40%;
+        margin-top: 40%; /* Espaçamento acima da imagem do cabeçalho */
     }
 }
 
+/* Estiliza a imagem do cabeçalho em telas com altura máxima de 950px */
 @media (max-height: 950px) {
     header img {
-        margin-top: 45%;
+        margin-top: 45%; /* Espaçamento acima da imagem do cabeçalho */
     }
 }
